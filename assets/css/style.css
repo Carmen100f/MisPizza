@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: LilitaOne-Regular;
+    src: url(../fonts/LilitaOne-Regular.ttf);
+}
+
+@font-face {
+
+    font-family: Poppins-SemiBold;
+    src: url(../fonts/Poppins-SemiBold.ttf);
+}
+
+
+html {
+    font-size: 10px;
+    font-family: "LilitaOne-Regular", "Poppins-SemiBold.ttf";
+}
+
+.header_nav {
+
+    opacity: 100%;
+
+    text-align: center;
+    width: 100%;
+    height: 79.75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding-top: 45px;
+    padding-left: 10%;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+    width: 400px;
+}
+
+a {
+    font-family: Poppins-SemiBold;
+    color: white;
+
+}
+
+li {
+    flex-grow: 4;
+    color: white;
+
+}
+
+
+
+body {
+
+    background-image: url(../fondo.jpg);
+    height: 40% 
+
+
+}
+
+.logo {
+    width: 151px;
+    height: 79.75px;
+}
+
+.imgpizza {
+    width: 100%;
+    text-align: center;
+    width: 80%;
+    background-image: url(../white-overlay-wave.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+
+.bajopizza {
+    z-index: 1;
+
+}
+
+
+.main__P {
+    background-color: white;
+    font-family: LilitaOne-Regular;
+    padding-top: 300;
+    text-align: center;
+    font-size: medium;
+    color: brown;
+}
+
+.footer__p {
+    background-color: white;
+    font-family: LilitaOne-Regular;
+    font-size: medium;
+    color: brown;
+    text-align: center;
+}
+
+.button {
+    font-family: Poppins-SemiBold; 
+    background-color: #F8BE26; 
+    border: none;
+    color:white;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8PX;
+    font-size: 24px;
+    margin: 40px 40% 40%;
+    cursor: pointer;
+  }
